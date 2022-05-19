@@ -1,0 +1,29 @@
+.manager-list-card-wrapper {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 4vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.manager-card-text {
+    color: #000;
+    font-size: 15px;
+    font-weight: 600;
+    width: 90%;
+    margin-left: 1vw;
+    margin-top: 1vw;
+}
+
+
+@media(max-width:660px) {
+    .manager-card-text {
+        font-size: 3.5vw;
+        margin:0;
+    }
+
+    .manager-list-card-wrapper {
+        margin : 3vw auto;
+    }
+}

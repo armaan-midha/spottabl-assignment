@@ -1,0 +1,50 @@
+.manager-input-form-wrapper {
+    background-color: white;
+    padding: 0.3vw;
+    border-radius: 0.3vw;
+}
+
+.manager-input-form-wrapper input {
+    width: 35vw;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    padding: 0 3%;
+}
+
+ .manager-input-form-wrapper button {
+    background: #0749bd;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 15px;
+    line-height: 120%;
+    text-align: center;
+    color: #fff;
+    width: 20%;
+    padding: 2% 0;
+    outline: none;
+    border: none;
+    margin-left: 5vw;
+  }
+
+  .manager-input-form {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-left: 2vw;
+      margin-right: 2vw;
+      border: solid;
+      border-color: grey;
+      border-width: 2px;
+  }
+
+  .manager-input-wrapper {
+    width: 50%;
+    }
+
+  @media(max-width:660px) {
+    .manager-input-form-wrapper button {
+      font-size: 3.5vw;
+    }
+  }

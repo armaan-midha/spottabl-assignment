@@ -1,0 +1,21 @@
+.manager-list-wrapper {
+    height: 20vw;
+    overflow-y: scroll;
+    width: 50vw;
+    margin-bottom: 2vw;
+    border: 2px solid grey; 
+    padding: 2vw;
+    margin-top: 3vw;
+    margin: 2vw; 
+    background-color: #ffff;
+}
+
+
+
+
+  @media(max-width:660px) {
+    .manager-list-wrapper {
+      width:50vw;
+      height: 20vh;
+    }
+  }
